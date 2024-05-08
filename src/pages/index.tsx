@@ -4,7 +4,11 @@ export default function HomePage() {
   return (
     <div>
       <h1>HI MOM!</h1>
-      <a href="/about">About</a>
+
+      <div style={{ display: "flex", gap: 16 }}>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+      </div>
     </div>
   );
 }

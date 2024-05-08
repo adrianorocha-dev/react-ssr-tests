@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 export default function Layout(props: { children: ReactNode }) {
-  console.log("rendering home layout");
+  console.log("rendering root layout");
   return (
     <html lang="en">
       <head>
